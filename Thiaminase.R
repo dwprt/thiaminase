@@ -5,18 +5,27 @@ library(dplyr)
 library(ggplot2)
 library(ggpmisc)
 library(cowplot)
+library(readr)
 
-getwd()
+wd <- getwd()
 #wd <- "Z:/Drew Porter/R/thiaminase"
-setwd(wd)
+
 
 dir.data <- file.path(wd, "data")
 dir.output <- file.path(wd, "output")
 
-
+#read in large meta file
 meta <- read.csv(file = file.path(dir.data, "Thiaminase.Meta.2022.csv"),
-                 stringsAsFactors = TRUE)
+                 stringsAsFactors = TRUE,
+                  blank.lines.skip = TRUE)
 
+meta2 <- read_csv(file = file.path(dir.data, "Thiaminase.Meta.2022.csv"))
+
+?read_csv
+
+?read.csv
+
+#remove empty rows in meta file
 meta <- meta[-c(190:334),]
 
 meta$Sample.ID <- as.character(meta$Sample.ID)
