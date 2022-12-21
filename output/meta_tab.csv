@@ -1,0 +1,50 @@
+,Species,Total_Samples,Arctic_Samples,Arctic_detects,Bering_Sea_Samples,Bering_Sea_detects,Southeast_Samples,Southeast_detects,Can I make Arctic?,Can I Make Bering Sea,Can I make SECM
+1,Arctic Cisco,9,9,7,0,0,0,0,Y,n,n
+2,Arctic Cod,10,10,4,0,0,0,0,Y,n,n
+3,Broad Whitefish,9,9,6,0,0,0,0,Y,n,n
+4,Capelin,11,0,0,11,6,0,0,N,y,n
+5,Fourhorn Sculpin,10,10,2,0,0,0,0,N,n,n
+6,Gonatus Squid,6,0,0,6,5,0,0,N,y,n
+7,Greenland turbot,4,0,0,4,2,0,0,N,n,n
+8,Humpy shrimp,2,0,0,2,1,0,0,N,n,n
+9,Longhead Dab,4,0,0,4,2,0,0,N,n,n
+10,Pacific cod (age 0),2,0,0,2,1,0,0,N,n,n
+11,Pacific Herring,28,0,0,18,8,10,5,N,y,y
+12,Pacific Herring (age 0),8,0,0,8,5,0,0,N,y,n
+13,Rainbow Smelt,22,10,10,12,12,0,0,Y,y,n
+14,Saffron Cod,14,10,1,4,4,0,0,N,y,n
+15,Sand Lance,18,0,0,18,7,0,0,N,y,n
+16,Surf Smelt,11,0,0,0,0,11,6,N,n,y
+17,Threespine stickleback,2,0,0,2,0,0,0,N,n,n
+18,Walleye Pollock (age 0),18,0,0,18,9,0,0,N,y,n
+,,188,,,,,,,,,
+,,,58,,,,21,,,,
+,,,,,109,62,,,,,
+,Arctic Fig includes,Bering Sea fig includes,SECM Includes,,,,,,,,
+,Arctic Cisco,Capelin,,,,,,,,,
+,Arctic Cod,Gonatus squid,,,95,,,,,,
+,Broad Whitefish,Pacific Herring,,,,,,,,,
+,Rainbow Smelt,Pacific Herring (age 0),,,,,,,,,
+,,Rainbow Smelt,,,,,,,,,
+,,Saffron Cod,,,,,,,,,
+,,Sand Lance,,,,,,,,,
+,,Walleye Pollock (age 0),,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,"Fujita 1954, Lienhard 1970, Honeyfield et al. 2012",,,,,,,,,,
+,"Fujita, A. 1954. Thiaminase. Adv. Enzymol. Relat. Areas Mol. Biol. 15: 389-421.",,,,,,,,,,
+,"Lienhard, G. E., 1970. Kinetic evidence for a (4-amino-2-methyl-5-pyrimidinyl) methyl-enzyme intermediate in the thiaminase I reaction. Biochem. 9: 3,011-3,020.",,,,,,,,,,
+,Cody Pinger - NOAA Federal,,,,,,,,,,
+,1:58 PM,,,,,,,,,,
+,"Honeyfield, D. C., M. E. Daniels, L. R. Brown, M. T. Arts, M. G. Walsh, and S. B. Brown. 2012. Survey of four essential nutrients and thiaminase activity in five Lake Ontario prey fish species. J. Great Lakes Res. 38: 11-17",,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,Rainbow Smelt,Capelin,Sand Lance,Herring,,,,,,,
