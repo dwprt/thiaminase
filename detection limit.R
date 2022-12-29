@@ -22,8 +22,8 @@ meta <- read.csv(file = file.path(dir.data, "Thiaminase.Meta.2022.detection.limi
                  blank.lines.skip = TRUE)
 
 
-meta <- meta[-c(198:334),] #removing empty rows
-meta <- meta[-c(1:9),] #removing samples that were not analysed
+meta <- meta[-c(224:334),] #removing empty rows
+meta <- meta[-c(215:223),] #removing samples that were not analysed
 
 #how many of each species do I have from each region? how many have detectable thiaminase
 meta_tab <- meta %>% 
@@ -158,6 +158,11 @@ ggplot(data = RainbowSmelt, aes(x = Survey, y = Thiaminase_Activity,
                                 fill = Survey)) +
   geom_boxplot()
 
+ggplot(data = RainbowSmelt, aes(x = Fork.Length..cm., y = Thiaminase_Activity,
+                                color = Survey)) +
+    geom_point() +
+  geom_smooth(method = "lm")
+names(RainbowSmelt)
 # Capelin ----------------------------------------------------------------------
 
 Capelin <- meta[meta$Species %in% "Capelin",]
@@ -178,6 +183,16 @@ PacificHerring %>%
             n_Detects = sum(No_detect == FALSE))
 
 cboxplot(PacificHerring$Thiaminase_Activity, PacificHerring$No_detect, xgroup = PacificHerring$Survey)
+
+#Sand Lance --------------------------------------------------------------------
+
+SandLance <- meta[meta$Species %in% c("Sand Lance"),]
+SandLance$Survey <- droplevels(SandLance$Survey) 
+
+SandLance %>% 
+  group_by(Species, Survey) %>% 
+  summarise(n = n(),
+            n_Detects = sum(No_detect == FALSE))
 
 # Don't bother with due to small sample size and high incidence of nondetects:
   # Greenland turbot, Humpy shrimp, Longhead dab, Pacific cod (age 0), 
