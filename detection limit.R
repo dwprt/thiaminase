@@ -5,6 +5,8 @@ library(NADA2)
 library(EnvStats)
 library(dplyr)
 library(ggplot2)
+library(lubridate)
+library(writexl)
 
 wd <- getwd()
 dir.data <- file.path(wd, "data")
@@ -22,9 +24,40 @@ meta <- read.csv(file = file.path(dir.data, "Thiaminase.Meta.2022.detection.limi
                  blank.lines.skip = TRUE)
 
 
-meta <- meta[-c(224:334),] #removing empty rows
-meta <- meta[-c(215:223),] #removing samples that were not analysed
+#meta <- meta[-c(224:334),] #removing empty rows
+meta <- meta[-c(1:9),] #removing samples that were not analysed
+meta$Catch.Date <- mdy(meta$Catch.Date)
+levels(meta$Area) <- c("Northern Bering Sea", "Southeast", "Southern Bering Sea", "Arctic")
+meta$Reg_Date <- paste(meta$Area, " ", year(meta$Catch.Date), sep = "")
 
+
+
+
+meta_summary <- meta %>% 
+  group_by(Species, Reg_Date) %>% 
+  summarise(n = n(), numNoDetect = sum(No_detect == TRUE), numDetect = sum(No_detect == FALSE),
+            PctNoDetect = (sum(No_detect == TRUE)/n())*100, detect3 = sum(No_detect == FALSE) >= 3)
+
+meta_summary2 <- meta %>% 
+  filter(No_detect == FALSE) %>% 
+  group_by(Species, Reg_Date) %>% 
+  summarise(mean_DetectedThiaminaseActivity = mean(Thiaminase_Activity),
+            sd_DetectedThiaminaseActivity = sd(Thiaminase_Activity),
+            median_DetectedThiaminaseActivity = median(Thiaminase_Activity))
+
+meta_summary3 <- inner_join(meta_summary, meta_summary2, by = c("Species", "Reg_Date"))
+meta_summary3 <- as.data.frame(meta_summary3)
+
+write_xlsx(meta_summary3, path = file.path(dir.output, "META_SUMMARY.xlsx"))
+?writexl
+
+
+?subset
+subset(meta)
+mean(meta[which(meta$Species == "Capelin" & meta$Area == "Northern Bering Sea" & meta$No_detect == FALSE), 2])
+
+
+meta[which(meta$Species == "Capelin"),]
 #how many of each species do I have from each region? how many have detectable thiaminase
 meta_tab <- meta %>% 
   group_by(Species) %>% 
@@ -149,29 +182,63 @@ sd(BSWalleyePollockAge0ROS)
 # For AMSS Poster, make boxplot of just Rainbow Smelt
 
 RainbowSmelt <- meta[meta$Species %in% "Rainbow Smelt",]
+RainbowSmelt$Reg_Date <- factor(RainbowSmelt$Reg_Date)
+
+
+RainbowSmeltNBS22 <- RainbowSmelt[which(RainbowSmelt$Reg_Date == "Northern Bering Sea 2022"),] 
+RainbowSmeltNBS22ros <- ros(RainbowSmeltNBS22$Thiaminase_Activity, RainbowSmeltNBS22$No_detect)
+mean(RainbowSmeltNBS22ros) #8.984966
+median(RainbowSmeltNBS22ros) #8.607865
+sd(RainbowSmeltNBS22ros) #4.804945
+length(RainbowSmeltNBS22$Sample.ID) #n = 8
+
+RainbowSmeltNBS21 <- RainbowSmelt[which(RainbowSmelt$Reg_Date == "Northern Bering Sea 2021"),] 
+RainbowSmeltNBS21ros <- ros(RainbowSmeltNBS21$Thiaminase_Activity, RainbowSmeltNBS21$No_detect)
+mean(RainbowSmeltNBS21ros) #20.41208
+median(RainbowSmeltNBS21ros) #16.51462
+sd(RainbowSmeltNBS21ros) #13.68385
+length(RainbowSmeltNBS21$Sample.ID) #n = 9
+
+RainbowSmeltVVB21 <- RainbowSmelt[which(RainbowSmelt$Reg_Date == "Von_Biela 2021"),] 
+RainbowSmeltVVB21ros <- ros(RainbowSmeltVVB21$Thiaminase_Activity, RainbowSmeltVVB21$No_detect)
+mean(RainbowSmeltVVB21ros) #13.84052
+median(RainbowSmeltVVB21ros) #14.76775
+sd(RainbowSmeltVVB21ros) #4.989214
+length(RainbowSmeltVVB21$Sample.ID) #n = 4
+
+
+unique(RainbowSmelt$Reg_Date)
+
 
 RainbowSmelt %>% 
   group_by(Survey) %>% 
   summarise(n = n())
 
-ggplot(data = RainbowSmelt, aes(x = Survey, y = Thiaminase_Activity,
-                                fill = Survey)) +
+ggplot(data = RainbowSmelt, aes(x = Reg_Date, y = Thiaminase_Activity,
+                                fill = Reg_Date)) +
   geom_boxplot()
 
-ggplot(data = RainbowSmelt, aes(x = Fork.Length..cm., y = Thiaminase_Activity,
-                                color = Survey)) +
-    geom_point() +
-  geom_smooth(method = "lm")
-names(RainbowSmelt)
+
+View(cboxplot(RainbowSmelt$Thiaminase_Activity, RainbowSmelt$No_detect, RainbowSmelt$Reg_Date))
+cenboxplot(RainbowSmelt$Thiaminase_Activity, RainbowSmelt$No_detect, RainbowSmelt$Reg_Date, log = FALSE)
+?cenboxplot
+?cboxplot
 # Capelin ----------------------------------------------------------------------
 
 Capelin <- meta[meta$Species %in% "Capelin",]
 
 Capelin %>% 
-  group_by(Survey) %>% 
+  group_by(Area) %>% 
   summarise(n = n(),
             n_Detects = sum(No_detect == FALSE))
 
+Capelin$Area <- droplevels(Capelin$Area)
+
+cboxplot(Capelin$Thiaminase_Activity, Capelin$No_detect, Capelin$Area,
+         printstat = TRUE, dl.loc = "topleft")
+
+?cboxplot
+cboxplot
 #Pacific Herring ---------------------------------------------------------------
 
 PacificHerring <- meta[meta$Species %in% c("Pacific Herring"),]
@@ -183,16 +250,6 @@ PacificHerring %>%
             n_Detects = sum(No_detect == FALSE))
 
 cboxplot(PacificHerring$Thiaminase_Activity, PacificHerring$No_detect, xgroup = PacificHerring$Survey)
-
-#Sand Lance --------------------------------------------------------------------
-
-SandLance <- meta[meta$Species %in% c("Sand Lance"),]
-SandLance$Survey <- droplevels(SandLance$Survey) 
-
-SandLance %>% 
-  group_by(Species, Survey) %>% 
-  summarise(n = n(),
-            n_Detects = sum(No_detect == FALSE))
 
 # Don't bother with due to small sample size and high incidence of nondetects:
   # Greenland turbot, Humpy shrimp, Longhead dab, Pacific cod (age 0), 
@@ -256,8 +313,8 @@ ggplot(data = meta_trimmed_species, aes(x = Mass..g., y = Thiaminase_Activity)) 
 cboxplot(meta_trimmed_species$Thiaminase_Activity, meta_trimmed_species$No_detect,
          xgroup = meta_trimmed_species$Species, show = TRUE)
 
-cboxplot(Capelin$Thiaminase_Activity, Capelin$No_detect, xgroup = Capelin$Survey)
-
+cboxplot(Capelin$Thiaminase_Activity, Capelin$No_detect, xgroup = Capelin$Area)
+?cboxplot
 xx = cboxplot(RainbowSmelt$Thiaminase_Activity, RainbowSmelt$No_detect, xgroup = RainbowSmelt$Survey)
 
 censtats(RainbowSmelt$Thiaminase_Activity, RainbowSmelt$No_detect)
