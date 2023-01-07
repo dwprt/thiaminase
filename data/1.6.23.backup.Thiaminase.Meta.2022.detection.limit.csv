@@ -1,0 +1,224 @@
+Sample ID,Thiaminase_Activity,SD_Line,Detect_Limit,No_detect,Area,Survey,Station,Catch Date,Latitude,Longitude,Region,Analysis Date,Species,Scientific,Age Class,Mass (g),Fork Length (cm),Note
+1154,14.48844863,0,0,FALSE,Northern Bering Sea,NBS2022,26,9/11/2022,63.0175,-166.0092,,9/30/2022,Rainbow Smelt,Osmerus mordax,NA,29.8,15.6,
+1155,16.09128625,1.147999715,3.443999144,FALSE,Northern Bering Sea,NBS2022,26,9/11/2022,63.0175,-166.0092,,9/30/2022,Rainbow Smelt,Osmerus mordax,NA,22.1,14,
+1150,5.788079559,0.158757597,0.476272792,FALSE,Northern Bering Sea,NBS2022,26,9/11/2022,63.0175,-166.0092,,10/7/2022,Rainbow Smelt,Osmerus mordax,NA,19.4,14.5,
+1151,6.206702399,0.230779124,0.692337372,FALSE,Northern Bering Sea,NBS2022,26,9/11/2022,63.0175,-166.0092,,10/7/2022,Rainbow Smelt,Osmerus mordax,NA,20.9,14.4,
+1152,7.240345686,0.553701028,1.661103084,FALSE,Northern Bering Sea,NBS2022,26,9/11/2022,63.0175,-166.0092,,10/7/2022,Rainbow Smelt,Osmerus mordax,NA,37.7,17.5,
+1153,10.60385645,0.454097833,1.362293498,FALSE,Northern Bering Sea,NBS2022,26,9/11/2022,63.0175,-166.0092,,10/7/2022,Rainbow Smelt,Osmerus mordax,NA,17.6,14,
+1156,9.975384116,0.335557406,1.006672217,FALSE,Northern Bering Sea,NBS2022,26,9/11/2022,63.0175,-166.0092,,10/7/2022,Rainbow Smelt,Osmerus mordax,NA,21.5,13.7,
+2981,0.765143547,0.044270042,0.132810125,FALSE,Northern Bering Sea,NBS2022,5,9/3/2022,60.5219,-169.0082,,10/17/2022,Capelin,Mallotus villosus,NA,4.3,9.3,
+3204,1.485626816,0.083536471,0.250609413,FALSE,Northern Bering Sea,NBS2022,23,9/10/2022,62.9915,-166.9599,,10/17/2022,Rainbow Smelt,Osmerus mordax,NA,27.6,14.9,
+3284,0.52085721,0.054203552,0.162610657,FALSE,Northern Bering Sea,NBS2022,28,9/12/2022,63.4991,-167.0056,,10/17/2022,Gonatus Squid,Gonatus kamtschaticus,NA,7.6,9.4,Total length
+3285,0.526776042,0.051452276,0.154356828,FALSE,Northern Bering Sea,NBS2022,28,9/12/2022,63.4991,-167.0056,,10/17/2022,Gonatus Squid,Gonatus kamtschaticus,NA,6.3,7.6,Total length
+3383,0.973378816,0.046471067,0.1394132,FALSE,Northern Bering Sea,NBS2022,34,9/14/2022,64.9811,-167.5343,,10/17/2022,Sand Lance,Ammodytes hexapterus,Age 1+,11.1,13.4,
+3385,0.600492404,0.058872591,0.176617773,FALSE,Northern Bering Sea,NBS2022,34,9/14/2022,64.9811,-167.5343,,10/17/2022,Sand Lance,Ammodytes hexapterus,Age 1+,10.2,13.8,
+3386,0.992211463,0.05937143,0.178114289,FALSE,Northern Bering Sea,NBS2022,34,9/14/2022,64.9811,-167.5343,,10/17/2022,Sand Lance,Ammodytes hexapterus,Age 1+,11.9,14.9,
+3387,1.910168489,0.053829446,0.161488339,FALSE,Northern Bering Sea,NBS2022,34,9/14/2022,64.9811,-167.5343,,10/17/2022,Sand Lance,Ammodytes hexapterus,Age 1+,12.3,14.2,
+3389,0.663985328,0.047671255,0.143013764,FALSE,Northern Bering Sea,NBS2022,34,9/14/2022,64.9811,-167.5343,,10/17/2022,Sand Lance,Ammodytes hexapterus,Age 1+,13.1,14.3,
+3444,7.81124393,0.053548435,0.160645304,FALSE,Northern Bering Sea,NBS2022,37,9/15/2022,63.9921,-165.9651,,10/17/2022,Saffron Cod,Eleginus gracilis,NA,2.7,6.5,
+3445,0.754382034,0.07208008,0.21624024,FALSE,Northern Bering Sea,NBS2022,37,9/15/2022,63.9921,-165.9651,,10/17/2022,Saffron Cod,Eleginus gracilis,NA,2.6,6.4,
+3454,2.944887926,0.04435155,0.13305465,FALSE,Northern Bering Sea,NBS2022,37,9/15/2022,63.9921,-165.9651,,10/17/2022,Gonatus Squid,Gonatus kamtschaticus,NA,9.7,8.9,Total length
+3455,2.191582044,0.041899394,0.125698183,FALSE,Northern Bering Sea,NBS2022,37,9/15/2022,63.9921,-165.9651,,10/17/2022,Gonatus Squid,Gonatus kamtschaticus,NA,22.9,10.5,Total length
+2979,0.132810125,0.044270042,0.132810125,TRUE,Northern Bering Sea,NBS2022,5,9/3/2022,60.5219,-169.0082,,10/17/2022,Capelin,Mallotus villosus,NA,4.5,9.5,
+3109,0.141084708,0.047028236,0.141084708,TRUE,Northern Bering Sea,NBS2022,13,9/6/2022,61.5012,-168.9561,,10/17/2022,Sand Lance,Ammodytes hexapterus,Age 0,1,6.8,
+3384,0.184995602,0.061665201,0.184995602,TRUE,Northern Bering Sea,NBS2022,34,9/14/2022,64.9811,-167.5343,,10/17/2022,Sand Lance,Ammodytes hexapterus,Age 1+,10.4,14.3,
+3388,0.128245704,0.042748568,0.128245704,TRUE,Northern Bering Sea,NBS2022,34,9/14/2022,64.9811,-167.5343,,10/17/2022,Sand Lance,Ammodytes hexapterus,Age 1+,11.1,14.5,
+3390,0.147398885,0.049132962,0.147398885,TRUE,Northern Bering Sea,NBS2022,34,9/14/2022,64.9811,-167.5343,,10/17/2022,Sand Lance,Ammodytes hexapterus,Age 1+,11.7,15,
+LD001,0.31314817,0.104382723,0.31314817,TRUE,Northern Bering Sea,NBS2022,10,9/5/2022,60.998,-168.9933333,,10/17/2022,Longhead Dab,Limanda proboscidea,Larval,0.4,3,"No barcode, composite sample, n = 5, mass and length are averages"
+LD002,0.204291736,0.068097245,0.204291736,TRUE,Northern Bering Sea,NBS2022,10,9/5/2022,60.998,-168.9933333,,10/17/2022,Longhead Dab,Limanda proboscidea,Larval,0.3,2.4,"No barcode, composite sample, n = 3, mass and length are averages"
+2604,1.218203228,0.105909499,0.317728496,FALSE,Northern Bering Sea,NBS2022,39,9/15/2022,64.0997,-163.4911,,12/6/2022,Pacific Herring (age 0),Clupea pallasi,Age 0,3.5,7.1,
+2608-c,0.400866345,0.060769609,0.182308826,FALSE,Northern Bering Sea,NBS2022,39,9/15/2022,64.0997,-163.4911,,12/6/2022,Pacific Herring (age 0),Clupea pallasi,Age 0,2.1,6.5,"Composite sample, n = 2, individuals = 2608, 2607, mass and length are averages"
+2615-c,1.658349094,0.072559809,0.217679427,FALSE,Northern Bering Sea,NBS2022,39,9/15/2022,64.0997,-163.4911,,12/6/2022,Pacific Herring (age 0),Clupea pallasi,Age 0,1.9,6.6,"Composite sample, n = 2, individuals = 2615, 2614, mass and length are averages"
+2623-c,3.058421884,0.055284067,0.165852202,FALSE,Northern Bering Sea,NBS2022,39,9/15/2022,64.0997,-163.4911,,12/6/2022,Pacific Herring (age 0),Clupea pallasi,Age 0,1.6,6,"Composite sample, n = 2, individuals = 2623, 2622, mass and length are averages"
+2814-c,0.534309101,0.05269301,0.158079031,FALSE,Northern Bering Sea,NBS2022,1,9/1/2022,60.0074,-168.0721,,12/6/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,1.4,5.3,"Composite sample, n = 3, individuals = 2814, 2813, 2812, mass and length are averages"
+3313-c,4.997108382,0.099739902,0.299219706,FALSE,Northern Bering Sea,NBS2022,30,9/12/2022,64.0008,-168.0068,,12/6/2022,Sand Lance,Ammodytes hexapterus,Age 0,0.5,5.2,"Composite sample, n = 4, individuals = 3313, 3320, 3319, 3318, mass and length are averages"
+GH-3,0.639233849,0.106223456,0.318670367,FALSE,Northern Bering Sea,NBS2022,1,9/1/2022,60.0074,-168.0721,,12/6/2022,Greenland turbot,Reinhardtius hippoglossoides,Larval,1.3,6,"No barcode, composite sample, n = 2, labeled Greenland halibut, mass and length are averages"
+PG-2,0.941094278,0.064210083,0.192630248,FALSE,Northern Bering Sea,NBS2022,22,9/9/2022,62.5025,-169.015,,12/6/2022,Humpy shrimp,Pandalus goniurus,,1.4,,"No barcode, composite sample, n = 3, no lengths taken, mass is average"
+2669,0.969612286,0.062370055,0.187110166,FALSE,Northern Bering Sea,NBS2022,40,9/16/2022,64.1004,-164.5063,,12/6/2022,Pacific Herring,Clupea pallasi,Age 1+,29.3,14.2,"Processed with light on, tube may be mislabeled 2269"
+2672,0.442978395,0.147659465,0.442978395,TRUE,Northern Bering Sea,NBS2022,40,9/16/2022,64.1004,-164.5063,,12/6/2022,Pacific Herring,Clupea pallasi,Age 1+,21,12.7,Processed with light on
+2934,0.212642547,0.070880849,0.212642547,TRUE,Northern Bering Sea,NBS2022,3,9/2/2022,60.0252,-170.0605,,12/6/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,1.6,5.7,
+2610-c,0.277920727,0.092640242,0.277920727,TRUE,Northern Bering Sea,NBS2022,39,9/15/2022,64.0997,-163.4911,,12/6/2022,Pacific Herring (age 0),Clupea pallasi,Age 0,1.6,5.9,"Composite sample, n = 2, individuals = 2610, 2609, mass and length are averages"
+2617-c,0.165155052,0.055051684,0.165155052,TRUE,Northern Bering Sea,NBS2022,39,9/15/2022,64.0997,-163.4911,,12/6/2022,Pacific Herring (age 0),Clupea pallasi,Age 0,1.6,6.2,"Composite sample, n = 2, individuals = 2617, 2616, mass and length are averages"
+2619-c,0.30560647,0.101868823,0.30560647,TRUE,Northern Bering Sea,NBS2022,39,9/15/2022,64.0997,-163.4911,,12/6/2022,Pacific Herring (age 0),Clupea pallasi,Age 0,1.7,6.4,"Composite sample, n = 2, individuals = 2619, 2618, mass and length are averages"
+2811-c,0.488255074,0.162751691,0.488255074,TRUE,Northern Bering Sea,NBS2022,1,9/1/2022,60.0074,-168.0721,,12/6/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,2.1,6.5,"Composite sample, n = 3, individuals = 2811, 2810, 2809, mass and length are averages"
+2908-c,0.318670367,0.106223456,0.318670367,TRUE,Northern Bering Sea,NBS2022,2,9/2/2022,59.9944,-169.0626,,12/6/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,0.7,4.2,"Composite sample, n = 6, individuals = 2908, 2907, 2906, 2904, 2905, 2903, mass and length are averages"
+GH-1,0.375020821,0.12500694,0.375020821,TRUE,Northern Bering Sea,NBS2022,1,9/1/2022,60.0074,-168.0721,,12/6/2022,Greenland turbot,Reinhardtius hippoglossoides,Larval,1.4,5.8,"No barcode, composite sample, n = 2, labeled Greenland halibut, mass and length are averages"
+PG-1,0.582516723,0.194172241,0.582516723,TRUE,Northern Bering Sea,NBS2022,22,9/9/2022,62.5025,-169.015,,12/6/2022,Humpy shrimp,Pandalus goniurus,,0.4,,"No barcode, composite sample, n = 7, no lengths taken, mass is average"
+1525,1.211208245,0.053319209,0.159957628,FALSE,Northern Bering Sea,NBS2021,3,,59.9972,-170.0025,,12/7/2022,Pacific cod (age 0),Gadus macrocephalus (age 0),Age 0,2,6.4,
+1699,1.86819859,0.061836692,0.185510076,FALSE,Northern Bering Sea,NBS2021,13,9/3/2021,61.0093,-170.0152,,12/7/2022,Pacific Herring,Clupea pallasi,Age 1+,101.9,22.1,
+1700,2.207186237,0.056159971,0.168479912,FALSE,Northern Bering Sea,NBS2021,13,9/3/2021,61.0093,-170.0152,,12/7/2022,Pacific Herring,Clupea pallasi,Age 1+,57,19,
+2606,2.40627422,0.051148903,0.153446708,FALSE,Northern Bering Sea,NBS2022,39,9/15/2022,64.0997,-163.4911,,12/7/2022,Pacific Herring (age 0),Clupea pallasi,Age 0,2.3,6.8,
+2668,1.479707984,0.187518275,0.562554824,FALSE,Northern Bering Sea,NBS2022,40,9/16/2022,64.1004,-164.5063,,12/7/2022,Pacific Herring,Clupea pallasi,Age 1+,11.2,11.1,"Processed with light on, tube may be mislabeled 2268"
+2815,1.436123858,0.07403149,0.222094471,FALSE,Northern Bering Sea,NBS2022,1,9/1/2022,60.0074,-168.0721,,12/7/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,2.6,6.4,
+2911-c,1.77457343,0.059733666,0.179200998,FALSE,Northern Bering Sea,NBS2022,2,9/2/2022,59.9944,-169.0626,,12/7/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,0.7,4.2,"Composite sample, n = 4, individuals = 2911, 2912, 2910, 2909, mass and length are averages"
+2986-c,0.277647025,0.073932161,0.221796483,FALSE,Northern Bering Sea,NBS2022,5,9/3/2022,60.5219,-169.0082,,12/7/2022,Longhead Dab,Limanda proboscidea,Larval,0.2,2,"Composite sample, n = 3, individuals = 2986, 2988, 2987, mass and length are averages"
+ARCO08,1.612612665,0.144478542,0.433435625,FALSE,Von_Biela,VVB,SS01,7/24/2021,70.2929,-147.79823,Foggy Island Bay,12/7/2022,Arctic Cod,,,8.9,10.3,"VVB fish, Net ID = FN-2021-02, FISHID = NA"
+ARCO10,1.448499598,0.058699462,0.176098387,FALSE,Von_Biela,VVB,LB03,8/19/2022,70.14299,-146.02219,Flaxman Island,12/7/2022,Arctic Cod,,,10.5,11.3,"VVB fish, Net ID = FN-2022-10, FISHID = NA"
+FOSC09,2.159297506,0.080284345,0.240853035,FALSE,Von_Biela,VVB,SS01,8/13/2022,70.29305,-147.7989,Foggy Island Bay,12/7/2022,Fourhorn Sculpin,,,15.6,11.9,"VVB fish, Net ID = FN-2022-03, FISHID = NA"
+LD003,1.027186379,0.057906733,0.1737202,FALSE,Northern Bering Sea,NBS2022,1,,,,,12/7/2022,Longhead Dab,,,0.4,2.8,"No barcode, composite sample, n = 4,  mass and length are averages"
+RASM07,18.33761749,0.573430139,1.720290418,FALSE,Von_Biela,VVB,LB04,8/19/2022,70.15524,-146.11319,Flaxman Island,12/7/2022,Rainbow Smelt,,,5.1,9.8,"VVB fish, Net ID = FN-2022-09, FISHID = NA"
+RASM08,8.550021771,0.206713598,0.620140795,FALSE,Von_Biela,VVB,LB01,8/16/2022,70.17207,-145.95714,Flaxman Island,12/7/2022,Rainbow Smelt,,,7.2,10.5,"VVB fish, Net ID = FN-2022-06, FISHID = NA"
+SUSM01,4.546739079,0.149343119,0.448029357,FALSE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/7/2022,Surf Smelt,Hypomesus pretiosus,,43.5,16.2,
+1021,0.210032937,0.070010979,0.210032937,TRUE,Northern Bering Sea,NBS2021,5,8/31/2021,60.5071,-170.9639,,12/7/2022,Pacific Herring,Clupea pallasi,Age 1+,83.1,20.4,
+2226,0.281769304,0.093923101,0.281769304,TRUE,Northern Bering Sea,NBS2021,45,9/14/2021,64.1063,-163.4488,,12/7/2022,Pacific Herring,Clupea pallasi,Age 1+,37.3,14.9,
+2673,0.632775371,0.210925124,0.632775371,TRUE,Northern Bering Sea,NBS2022,40,9/16/2022,64.1004,-164.5063,,12/7/2022,Pacific Herring,Clupea pallasi,Age 1+,20.6,13.2,Processed with light on
+3317-c,0.224696279,0.07489876,0.224696279,TRUE,Northern Bering Sea,NBS2022,30,9/12/2022,64.0008,-168.0068,,12/7/2022,Sand Lance,Ammodytes hexapterus,Age 0,0.5,5.4,"Composite sample, n = 4, individuals = 3317, 3316, 3315, 3314, mass and length are averages"
+3456-c,0.22477528,0.074925093,0.22477528,TRUE,Northern Bering Sea,NBS2022,37,,,,,12/7/2022,Sand Lance,,,1,6.8,"Composite sample, n = 2, individuals = 3456, 3457, mass and length are averages"
+FOSC01,0.167299171,0.05576639,0.167299171,TRUE,Von_Biela,VVB,LB01,7/25/2021,70.17283,-145.95804,Flaxman Island,12/7/2022,Fourhorn Sculpin,,,1.4,6.1,"VVB fish, Net ID = FN-2021-03, FISHID = NA"
+FOSC02,0.191551594,0.063850531,0.191551594,TRUE,Von_Biela,VVB,LB01,8/16/2022,70.17207,-145.95714,Flaxman Island,12/7/2022,Fourhorn Sculpin,,,2,6.7,"VVB fish, Net ID = FN-2022-06, FISHID = NA"
+FOSC04,0.155053394,0.051684465,0.155053394,TRUE,Von_Biela,VVB,SS01,7/24/2022,70.29305,-147.7989,Foggy Island Bay,12/7/2022,Fourhorn Sculpin,,,1.2,7.5,"VVB fish, Net ID = FN-2022-02, FISHID = NA"
+FOSC05,0.205576916,0.068525639,0.205576916,TRUE,Von_Biela,VVB,SS01,8/13/2022,70.29305,-147.7989,Foggy Island Bay,12/7/2022,Fourhorn Sculpin,,,2.9,7.5,"VVB fish, Net ID = FN-2022-03, FISHID = NA"
+FOSC06,0.169999096,0.056666365,0.169999096,TRUE,Von_Biela,VVB,SS01,7/22/2021,70.2929,-147.79823,Foggy Island Bay,12/7/2022,Fourhorn Sculpin,,,3.1,7.6,"VVB fish, Net ID = FN-2021-01, FISHID = NA"
+FOSC10,0.178188041,0.059396014,0.178188041,TRUE,Von_Biela,VVB,SS01,8/13/2022,70.29305,-147.7989,Foggy Island Bay,12/7/2022,Fourhorn Sculpin,,,23.4,13.5,"VVB fish, Net ID = FN-2022-03, FISHID = NA"
+GH-2,0.167869994,0.055956665,0.167869994,TRUE,Northern Bering Sea,NBS2022,1,9/1/2022,60.0074,-168.0721,,12/7/2022,Greenland turbot,Reinhardtius hippoglossoides,Larval,1.3,6.1,"No barcode, composite sample, n = 2, labeled Greenland halibut, mass and length are averages"
+SACO01,0.214928616,0.071642872,0.214928616,TRUE,Von_Biela,VVB,LB02,7/28/2021,70.18504,-146.05629,Flaxman Island,12/7/2022,Saffron Cod,Eleginus gracilis,,2.5,7.4,"VVB fish, Net ID = FN-2021-05, FISHID = NA"
+SACO02,0.405424031,0.135141344,0.405424031,TRUE,Von_Biela,VVB,LB01,8/16/2022,70.17207,-145.95714,Flaxman Island,12/7/2022,Saffron Cod,Eleginus gracilis,,4.1,8.7,"VVB fish, Net ID = FN-2022-06, FISHID = NA, thawed a little bit"
+SACO03,0.652043364,0.217347788,0.652043364,TRUE,Von_Biela,VVB,LB04,8/19/2022,70.15524,-146.11319,Flaxman Island,12/7/2022,Saffron Cod,Eleginus gracilis,,5.3,9.1,"VVB fish, Net ID = FN-2022-09, FISHID = NA"
+SACO04,0.292985441,0.097661814,0.292985441,TRUE,Von_Biela,VVB,LB04,8/19/2022,70.15524,-146.11319,Flaxman Island,12/7/2022,Saffron Cod,Eleginus gracilis,,7.3,10.1,"VVB fish, Net ID = FN-2022-09, FISHID = NA"
+SACO06,0.220923301,0.0736411,0.220923301,TRUE,Von_Biela,VVB,LB04,8/19/2022,70.15524,-146.11319,Flaxman Island,12/7/2022,Saffron Cod,Eleginus gracilis,,9.3,11.1,"VVB fish, Net ID = FN-2022-09, FISHID = NA"
+SACO07,0.273810833,0.091270278,0.273810833,TRUE,Von_Biela,VVB,SS01,7/22/2021,70.2929,-147.79823,Foggy Island Bay,12/7/2022,Saffron Cod,Eleginus gracilis,,9.8,11.2,"VVB fish, Net ID = FN-2021-01, FISHID = NA"
+SACO08,0.268824826,0.089608275,0.268824826,TRUE,Von_Biela,VVB,SS01,7/22/2021,70.2929,-147.79823,Foggy Island Bay,12/7/2022,Saffron Cod,Eleginus gracilis,,10.3,11.9,"VVB fish, Net ID = FN-2021-01, FISHID = NA"
+SACO09,0.153953584,0.051317861,0.153953584,TRUE,Von_Biela,VVB,SS01,7/22/2021,70.2929,-147.79823,Foggy Island Bay,12/7/2022,Saffron Cod,Eleginus gracilis,,14.1,12.2,"VVB fish, Net ID = FN-2021-01, FISHID = NA"
+SUSM07,0.34361575,0.114538583,0.34361575,TRUE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/7/2022,Surf Smelt,Hypomesus pretiosus,,43.8,15.8,
+924,2.144769464,0.196738233,0.590214698,FALSE,Southeast,SECM2022,,7/28/2022,58.2261,-134.6112,,12/8/2022,Pacific Herring,Clupea pallasi,,56.4,18,
+1058,13.57941469,0.470199036,1.410597108,FALSE,Northern Bering Sea,NBS2021,10,9/2/2021,61.0072,-167.0247,,12/8/2022,Rainbow Smelt,Osmerus mordax,,41.9,17.6,
+1255,15.73333144,0.287390926,0.862172778,FALSE,Northern Bering Sea,NBS2021,31,9/9/2021,63.016,-166.006,,12/8/2022,Rainbow Smelt,Osmerus mordax,,8.5,10.8,
+1256,16.51461725,0.592162844,1.776488532,FALSE,Northern Bering Sea,NBS2021,31,9/9/2021,63.016,-166.006,,12/8/2022,Rainbow Smelt,Osmerus mordax,,30.1,15,
+1585,0.999744522,0.060297033,0.180891099,FALSE,Northern Bering Sea,NBS2021,7,9/1/2021,60.4999,-168.9578,,12/8/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,4.1,7.7,
+1599,1.801477211,0.052900511,0.158701532,FALSE,Northern Bering Sea,NBS2021,8,9/1/2021,60.5041,-167.9788,,12/8/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,4.2,8.1,
+1658,1.724532396,0.075975182,0.227925547,FALSE,Northern Bering Sea,NBS2021,11,9/2/2021,61.007,-168.0525,,12/8/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,3.7,7.9,
+2110,33.89015552,0.857101845,2.571305536,FALSE,Northern Bering Sea,NBS2021,37,9/11/2021,65.389,-167.9904,,12/8/2022,Rainbow Smelt,Osmerus mordax,,20.5,15.8,
+2145,0.765143547,0.070131154,0.210393461,FALSE,Northern Bering Sea,NBS2021,39,9/12/2021,64.503,-167.0381,,12/8/2022,Capelin,Mallotus villosus,,3.9,8.6,
+1682c,2.032311657,0.053414472,0.160243416,FALSE,Northern Bering Sea,NBS2021,12,9/3/2021,61.0247,-169.0165,,12/8/2022,Sand Lance,Ammodytes hexapterus,,0.4,5.4,"Composite sample, n = 5, individuals = 1682-85, 1691, mass and length are averages"
+ARCI01,1.086374698,0.070426617,0.211279852,FALSE,Von_Biela,VVB,SS02,7/22/2018,70.27666,-147.77771,Foggy Island Bay,12/8/2022,Arctic Cisco,,,1.8,7.6,"VVB fish, Net ID = FN-2018-04-North, FishID = ARCI347"
+ARCO01,1.475403379,0.133505257,0.400515772,FALSE,Von_Biela,VVB,LB02,7/28/2021,70.18504,-146.05629,Flaxman Island,12/8/2022,Arctic Cod,,,1.9,7,"VVB fish, Net ID = FN-2021-05, FISHID = NA"
+ARCO07,0.499334185,0.08403305,0.252099151,FALSE,Von_Biela,VVB,LB03,8/19/2022,70.14299,-146.02219,Flaxman Island,12/8/2022,Arctic Cod,,,10.6,9.9,"VVB fish, Net ID = FN-2022-10, FISHID = NA"
+BRWH01,1.824614463,0.05514253,0.165427591,FALSE,Von_Biela,VVB,SS01,7/24/2022,70.29305,-147.7989,Foggy Island Bay,12/8/2022,Broad Whitefish,,,11.2,9.8,"VVB fish, Net ID = FN2202-02, FISHID = NA"
+BRWH02,1.768654598,0.055532358,0.166597075,FALSE,Von_Biela,VVB,SS01,7/23/2022,70.29305,-147.7989,Foggy Island Bay,12/8/2022,Broad Whitefish,,,9,10.6,"VVB fish, Net ID = FN-2202-01, FISH ID = NA"
+BRWH03,0.890515169,0.170521405,0.511564215,FALSE,Von_Biela,VVB,SS01,7/24/2022,70.29305,-147.7989,Foggy Island Bay,12/8/2022,Broad Whitefish,,,11.1,11,"VVB fish, Net ID = FN-2022-02, FISHID = NA"
+BRWH04,2.850186615,0.057767247,0.173301742,FALSE,Von_Biela,VVB,SS01,7/24/2022,70.29305,-147.7989,Foggy Island Bay,12/8/2022,Broad Whitefish,,,13.3,11.1,"VVB fish, Net ID = FN-2022-02, FISHID = NA"
+BRWH05,2.595676842,0.075612907,0.226838722,FALSE,Von_Biela,VVB,SS01,7/22/2021,70.2929,-147.79823,Foggy Island Bay,12/8/2022,Broad Whitefish,,,14.5,12.8,"VVB fish, Net ID = FN-2021-01, FISHID = NA"
+BRWH06,2.004331724,0.057241748,0.171725243,FALSE,Von_Biela,VVB,SS01,7/23/2018,70.2929,-147.79823,Foggy Island Bay,12/8/2022,Broad Whitefish,,,33.7,14.8,"VVB fish, Net ID = FN-2018-05-East, FISHID = BRWH158"
+SACO10,0.674746841,0.055698813,0.167096438,FALSE,Von_Biela,VVB,LB02,7/28/2021,70.18504,-146.05629,Flaxman Island,12/8/2022,Saffron Cod,Eleginus gracilis,,11.9,12.4,"VVB fish, Net ID = FN-2021-05, FISHID = NA"
+922,0.806654875,0.268884958,0.806654875,TRUE,Southeast,SECM2022,,7/28/2022,58.2261,-134.6112,,12/8/2022,Pacific Herring,Clupea pallasi,,49.4,17,
+1524,0.179143688,0.059714563,0.179143688,TRUE,Northern Bering Sea,NBS2021,3,,59.9972,-170.0025,,12/8/2022,Pacific cod (age 0),Gadus macrocephalus (age 0),Age 0,12.1,8.7,
+1579,0.154334652,0.051444884,0.154334652,TRUE,Northern Bering Sea,NBS2021,5,8/31/2021,60.5071,-170.9639,,12/8/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,3.1,6.8,
+2007,0.167712724,0.055904241,0.167712724,TRUE,Northern Bering Sea,NBS2021,32,9/9/2021,63.4962,-166.0308,,12/8/2022,Threespine stickleback,Gasterosteus aculeatus,,4.7,7.9,
+2008,0.188903477,0.062967826,0.188903477,TRUE,Northern Bering Sea,NBS2021,32,9/9/2021,63.4962,-166.0308,,12/8/2022,Threespine stickleback,Gasterosteus aculeatus,,4.8,7.4,
+2144,0.164105726,0.054701909,0.164105726,TRUE,Northern Bering Sea,NBS2021,39,9/12/2021,64.503,-167.0381,,12/8/2022,Capelin,Mallotus villosus,,2.7,7.5,
+1196c,0.630701453,0.210233818,0.630701453,TRUE,Northern Bering Sea,NBS2021,27,9/8/2021,62.5002,-168.9767,,12/8/2022,Sand Lance,Ammodytes hexapterus,,0.7,6,"Composite sample, n = 2, individuals = 1196,1200, mass and length are averages"
+1536c,0.18042845,0.060142817,0.18042845,TRUE,Northern Bering Sea,NBS2021,4,8/31/2021,60.0042,-170.9748,,12/8/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,1.5,5.7,
+1686c,0.19196248,0.063987493,0.19196248,TRUE,Northern Bering Sea,NBS2021,12,9/3/2021,61.0247,-169.0165,,12/8/2022,Sand Lance,Ammodytes hexapterus,,0.4,5,"Composite sample, n = 5, individuals = 1686-90, mass and length are averages"
+1765c,0.199236607,0.066412202,0.199236607,TRUE,Northern Bering Sea,NBS2021,17,9/4/2021,61.5028,-168.9718,,12/8/2022,Sand Lance,Ammodytes hexapterus,,0.4,5.3,"Composite sample, n = 2, individuals = 1765, 1766, mass and length are averages"
+1925c,0.152957067,0.050985689,0.152957067,TRUE,Northern Bering Sea,NBS2021,24,9/7/2021,62.0053,-170.9941,,12/8/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,0.9,4.6,"Composite sample, n = 2, individuals = 1925, 1924, mass and length are averages"
+2091c,0.199459815,0.066486605,0.199459815,TRUE,Northern Bering Sea,NBS2021,35,9/10/2021,64.0112,-168.991,,12/8/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,1.3,5.6,"Composite sample, n = 2, individuals = 2091, 2090, mass and length are averages"
+ARCO02,0.190400851,0.06346695,0.190400851,TRUE,Von_Biela,VVB,SS01,7/24/2021,70.2929,-147.79823,Foggy Island Bay,12/8/2022,Arctic Cod,,,3.6,7.5,"VVB fish, Net ID = FN-2021-02, FISHID = NA"
+ARCO03,0.252188394,0.084062798,0.252188394,TRUE,Von_Biela,VVB,SS01,7/24/2021,70.2929,-147.79823,Foggy Island Bay,12/8/2022,Arctic Cod,,,4,8,"VVB fish, Net ID = FN-2021-02, FISHID = NA"
+ARCO04,0.179050967,0.059683656,0.179050967,TRUE,Von_Biela,VVB,LB04,8/19/2022,70.15524,-146.11319,Flaxman Island,12/8/2022,Arctic Cod,,,5,8.5,"VVB fish, Net ID = FN-2022-09, FISHID = NA"
+ARCO05,0.192586337,0.064195446,0.192586337,TRUE,Von_Biela,VVB,SS01,7/24/2021,70.2929,-147.79823,Foggy Island Bay,12/8/2022,Arctic Cod,,,4.7,8.8,"VVB fish, Net ID = FN-2021-02, FISHID = NA"
+ARCO06,0.202018984,0.067339661,0.202018984,TRUE,Von_Biela,VVB,LB04,8/19/2022,70.15524,-146.11319,Flaxman Island,12/8/2022,Arctic Cod,,,5.8,9.1,"VVB fish, Net ID = FN-2022-09, FISHID = NA"
+ARCO09,0.180010988,0.060003663,0.180010988,TRUE,Von_Biela,VVB,LB04,8/19/2022,70.15524,-146.11319,Flaxman Island,12/8/2022,Arctic Cod,,,7.6,10.3,"VVB fish, Net ID = FN-2022-09, FISHID = NA"
+BRWH07,0.308321419,0.102773806,0.308321419,TRUE,Von_Biela,VVB,SL01,7/22/2019,70.5156,-149.46765,Simpson Lagoon,12/8/2022,Broad Whitefish,,,24.1,15,"VVB fish, Net ID = FN-2019-01-South, FISHID = BRWH160"
+BRWH08,0.308343477,0.102781159,0.308343477,TRUE,Von_Biela,VVB,SS02,7/22/2018,70.27666,-147.77771,Foggy Island Bay,12/8/2022,Broad Whitefish,,,34.4,15.5,"VVB fish, Net ID = FN-2018-04-South, FISHID =  BRWH159"
+SACO05,0.394875609,0.131625203,0.394875609,TRUE,Von_Biela,VVB,LB03,8/16/2022,70.14298,-146.02217,Flaxman Island,12/8/2022,Saffron Cod,Eleginus gracilis,,9.2,11,"VVB fish, Net ID = FN-2022-05, FISHID = NA"
+904,1.253716219,0.168551781,0.505655343,FALSE,Northern Bering Sea,NBS2022,10,9/5/2022,60.998,-168.9933333,,12/9/2022,Capelin,Mallotus villosus,NA,4.7,8.7,
+907,0.408399404,0.093050386,0.279151159,FALSE,Northern Bering Sea,NBS2022,10,9/5/2022,60.998,-168.9933333,,12/9/2022,Capelin,Mallotus villosus,NA,4.4,8.6,
+926,3.180565053,0.123354252,0.370062757,FALSE,Southeast,SECM2022,,7/28/2022,58.2261,-134.6112,,12/9/2022,Pacific Herring,Clupea pallasi,,41.9,16,
+928,1.670724833,0.152570693,0.457712079,FALSE,Southeast,SECM2022,,7/28/2022,58.2261,-134.6112,,12/9/2022,Pacific Herring,Clupea pallasi,,45.9,16.1,
+2933,1.708390127,0.187100082,0.561300245,FALSE,Northern Bering Sea,NBS2022,3,9/2/2022,60.0252,-170.0605,,12/9/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,1.2,5.2,
+2978,1.181076009,0.060749418,0.182248253,FALSE,Northern Bering Sea,NBS2022,5,9/3/2022,60.5219,-169.0082,,12/9/2022,Capelin,Mallotus villosus,NA,5.3,10.1,
+3001,1.039024043,0.057715746,0.173147238,FALSE,Northern Bering Sea,NBS2022,6,9/3/2022,60.5045,-167.979,,12/9/2022,Capelin,Mallotus villosus,NA,2.8,8.4,
+3283,1.7708069,0.061152936,0.183458809,FALSE,Northern Bering Sea,NBS2022,28,9/12/2022,63.4991,-167.0056,,12/9/2022,Gonatus Squid,Gonatus kamtschaticus,NA,10.5,11,Total length
+3446,2.502589758,0.103809558,0.311428674,FALSE,Northern Bering Sea,NBS2022,37,9/15/2022,63.9921,-165.9651,,12/9/2022,Saffron Cod,Eleginus gracilis,NA,1.5,5.3,
+3447,3.597573666,0.099515617,0.298546852,FALSE,Northern Bering Sea,NBS2022,37,9/15/2022,63.9921,-165.9651,,12/9/2022,Saffron Cod,Eleginus gracilis,NA,2.5,5.8,
+2935-c,1.694400161,0.075491286,0.226473858,FALSE,Northern Bering Sea,NBS2022,3,9/2/2022,60.0252,-170.0605,,12/9/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,0.8,4.8,"Composite sample, n = 2, individuals = 2935, 2938, mass and length are averages"
+2940-c,1.160629135,0.064578613,0.193735839,FALSE,Northern Bering Sea,NBS2022,3,9/2/2022,60.0252,-170.0605,,12/9/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,0.9,4.9,"Composite sample, n = 2, individuals = 2940, 2939, mass and length are averages"
+ARCI02,2.364842397,0.15406063,0.462181889,FALSE,Von_Biela,VVB,SL01,7/26/2018,70.5156,-149.46765,Simpson Lagoon,12/9/2022,Arctic Cisco,,,5,8.5,"VVB fish, Net ID = FN-2018-09, FISHID = ARCI346"
+ARCI03,2.795840977,0.063063609,0.189190828,FALSE,Von_Biela,VVB,LB01,8/16/2022,70.17207,-145.95714,Flaxman Island,12/9/2022,Arctic Cisco,,,9,11,"VVB fish, Net ID = FN-2022-06, FISHID = NA"
+ARCI05,1.695476312,0.09993916,0.29981748,FALSE,Von_Biela,VVB,LB01,8/16/2022,70.17207,-145.95714,Flaxman Island,12/9/2022,Arctic Cisco,,,16.9,12.6,"VVB fish, Net ID = FN-2022-06, FISHID = NA"
+ARCI08,0.863073312,0.052539731,0.157619193,FALSE,Von_Biela,VVB,SL77,7/23/2019,70.49861,-149.59874,Simpson Lagoon,12/9/2022,Arctic Cisco,,,34,15,"VVB fish, Net ID = FN-2019-02-East, FISHID = ARCI345"
+ARCI10,3.631472431,0.065517386,0.196552158,FALSE,Von_Biela,VVB,SS02,7/30/2019,70.27666,-147.77771,Foggy Island Bay,12/9/2022,Arctic Cisco,,,40.3,16,"VVB fish, Net ID = FN-2019-09-South, FISHID = ARCI344"
+SUSM03,1.289229211,0.152437623,0.457312868,FALSE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/9/2022,Surf Smelt,Hypomesus pretiosus,,42.6,16.3,
+SUSM05,4.60323702,0.44423319,1.332699571,FALSE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/9/2022,Surf Smelt,Hypomesus pretiosus,,38.9,16,
+SUSM09,3.837017322,0.185787025,0.557361076,FALSE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/9/2022,Surf Smelt,Hypomesus pretiosus,,43.4,16.4,
+SUSM11,4.0958317,0.082263706,0.246791117,FALSE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/9/2022,Surf Smelt,Hypomesus pretiosus,,39.7,15.1,
+905,0.35230554,0.11743518,0.35230554,TRUE,Northern Bering Sea,NBS2022,10,9/5/2022,60.998,-168.9933333,,12/9/2022,Capelin,Mallotus villosus,NA,4.9,9.1,
+906,0.259218071,0.086406024,0.259218071,TRUE,Northern Bering Sea,NBS2022,10,9/5/2022,60.998,-168.9933333,,12/9/2022,Capelin,Mallotus villosus,NA,3.8,8.9,
+927,0.209657785,0.069885928,0.209657785,TRUE,Southeast,SECM2022,,7/28/2022,58.2261,-134.6112,,12/9/2022,Pacific Herring,Clupea pallasi,,36.7,15.8,
+940,0.48067843,0.160226143,0.48067843,TRUE,Southeast,SECM2022,,7/28/2022,58.2261,-134.6112,,12/9/2022,Pacific Herring,Clupea pallasi,,43,15.5,
+2936,0.317908244,0.105969415,0.317908244,TRUE,Northern Bering Sea,NBS2022,3,9/2/2022,60.0252,-170.0605,,12/9/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,2.2,6.1,
+2999,0.173147238,0.057715746,0.173147238,TRUE,Northern Bering Sea,NBS2022,6,9/3/2022,60.5045,-167.979,,12/9/2022,Capelin,Mallotus villosus,NA,4,8.5,
+3282,0.209236162,0.069745387,0.209236162,TRUE,Northern Bering Sea,NBS2022,28,9/12/2022,63.4991,-167.0056,,12/9/2022,Gonatus Squid,Gonatus kamtschaticus,NA,9.8,9.5,Total length
+2931-c,0.205216215,0.068405405,0.205216215,TRUE,Northern Bering Sea,NBS2022,3,9/2/2022,60.0252,-170.0605,,12/9/2022,Walleye Pollock (age 0),Gadus chalcogrammus (age 0),Age 0,0.9,5.1,"Composite sample, n = 3, individuals = 2931, 2930, 2937, mass and length are averages"
+3280-c,0.228620216,0.076206739,0.228620216,TRUE,Northern Bering Sea,NBS2022,28,9/12/2022,63.4991,-167.0056,,12/9/2022,Sand Lance,Ammodytes hexapterus,Age 0,0.5,5.1,"Composite sample, n = 3, individuals = 3280, 3279, 3281, mass and length are averages"
+ARCI09,0.176571631,0.05885721,0.176571631,TRUE,Von_Biela,VVB,SS01,7/23/2022,70.29305,-147.7989,Foggy Island Bay,12/9/2022,Arctic Cisco,,,26.3,15.1,"VVB fish, Net ID = FN-2022-01, FISHID = NA"
+BRWH09,0.219965653,0.073321884,0.219965653,TRUE,Von_Biela,VVB,SL01,7/22/2019,70.5156,-149.46765,Simpson Lagoon,12/9/2022,Broad Whitefish,,,46.5,16,"VVB fish, Net ID = FN-2019-01-South, FISHID = BRWH161"
+SUSM04,0.538996775,0.179665592,0.538996775,TRUE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/9/2022,Surf Smelt,Hypomesus pretiosus,,42.4,16.3,
+SUSM08,0.216646704,0.072215568,0.216646704,TRUE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/9/2022,Surf Smelt,Hypomesus pretiosus,,43.4,16.5,
+SUSM10,0.38896266,0.12965422,0.38896266,TRUE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/9/2022,Surf Smelt,Hypomesus pretiosus,,38.3,16,
+920,4.879269818,0.105426338,0.316279013,FALSE,Southeast,SECM2022,,7/28/2022,58.2261,-134.6112,,12/12/2022,Pacific Herring,Clupea pallasi,,48.2,16,
+925,2.093114203,0.127801242,0.383403726,FALSE,Southeast,SECM2022,,7/28/2022,58.2261,-134.6112,,12/12/2022,Pacific Herring,Clupea pallasi,,49.2,16.4,
+1568,7.198375786,0.22231912,0.66695736,FALSE,Northern Bering Sea,NBS2021,6,9/1/2021,60.5035,-169.9368,,12/12/2022,Pacific Herring,Clupea pallasi,Age 1+,92.2,20.8,
+2664,1.097136211,0.201176326,0.603528979,FALSE,Northern Bering Sea,NBS2022,40,9/16/2022,64.1004,-164.5063,,12/12/2022,Pacific Herring,Clupea pallasi,Age 1+,43.2,16.4,
+2666,3.569593734,0.112855609,0.338566827,FALSE,Northern Bering Sea,NBS2022,40,9/16/2022,64.1004,-164.5063,,12/12/2022,Pacific Herring,Clupea pallasi,Age 1+,37.5,14.8,Processed with light on
+2670,4.847523356,0.046491126,0.139473377,FALSE,Northern Bering Sea,NBS2022,40,9/16/2022,64.1004,-164.5063,,12/12/2022,Pacific Herring,Clupea pallasi,Age 1+,29.2,12.8,Processed with light on
+2671,2.546173884,0.082482934,0.247448801,FALSE,Northern Bering Sea,NBS2022,40,9/16/2022,64.1004,-164.5063,,12/12/2022,Pacific Herring,Clupea pallasi,Age 1+,16.2,11.6,Processed with light on
+ARCI07,8.102880921,0.273951798,0.821855393,FALSE,Von_Biela,VVB,LB01,7/25/2021,70.17283,-145.95804,Flaxman Island,12/12/2022,Arctic Cisco,,,21.7,13.9,"VVB fish, Net ID = FN-2021-03, FISHID = NA"
+FOSC07,2.187815514,0.052325408,0.156976224,FALSE,Von_Biela,VVB,LB01,7/25/2021,70.17283,-145.95804,Flaxman Island,12/12/2022,Fourhorn Sculpin,,,5.5,8.9,"VVB fish, Net ID = FN-2021-03, FISHID = NA"
+GH-4,1.832685598,0.0722972,0.216891601,FALSE,Northern Bering Sea,NBS2022,1,9/1/2022,60.0074,-168.0721,,12/12/2022,Greenland turbot,Reinhardtius hippoglossoides,Larval,1.5,6.4,"No barcode, composite sample, n = 3, labeled Greenland halibut, mass and length are averages"
+RASM01,7.50830735,0.125405142,0.376215426,FALSE,Von_Biela,VVB,SS01,7/24/2021,70.2929,-147.79823,Foggy Island Bay,12/12/2022,Rainbow Smelt,,,1.5,6,"VVB fish, Net ID = FN-2021-02, FISHID = NA"
+RASM02,17.29859345,0.288325111,0.864975333,FALSE,Von_Biela,VVB,SS01,7/24/2021,70.2929,-147.79823,Foggy Island Bay,12/12/2022,Rainbow Smelt,,,1.2,6.3,"VVB fish, Net ID = FN-2021-02, FISHID = NA"
+RASM03,18.31824677,0.530274456,1.590823368,FALSE,Von_Biela,VVB,SS01,7/24/2021,70.2929,-147.79823,Foggy Island Bay,12/12/2022,Rainbow Smelt,,,3.4,8.4,"VVB fish, Net ID = FN-2021-02, FISHID = NA"
+RASM04,32.97757925,0.957889475,2.873668426,FALSE,Von_Biela,VVB,SS01,7/23/2022,70.29305,-147.7989,Foggy Island Bay,12/12/2022,Rainbow Smelt,,,3.5,8.8,"VVB fish, Net ID = FN-2022-01, FISHID = NA"
+RASM05,29.02971835,0.686135634,2.058406902,FALSE,Von_Biela,VVB,SS01,7/23/2022,70.29305,-147.7989,Foggy Island Bay,12/12/2022,Rainbow Smelt,,,4.4,9.5,"VVB fish, Net ID = FN-2022-01, FISHID = NA"
+RASM06,15.2264642,0.248320948,0.744962843,FALSE,Von_Biela,VVB,SS01,7/24/2022,70.29305,-147.7989,Foggy Island Bay,12/12/2022,Rainbow Smelt,,,5.4,9.5,"VVB fish, Net ID = FN-2022-02, FISHID = NA"
+RASM09,12.23691599,0.283591165,0.850773496,FALSE,Von_Biela,VVB,SS01,7/24/2021,70.2929,-147.79823,Foggy Island Bay,12/12/2022,Rainbow Smelt,,,14.7,13.5,"VVB fish, Net ID = FN-2021-02, FISHID = NA"
+RASM10,20.3909141,0.462749623,1.38824887,FALSE,Von_Biela,VVB,LB04,8/19/2022,70.15524,-146.11319,Flaxman Island,12/12/2022,Rainbow Smelt,,,21.3,14.7,"VVB fish, Net ID = FN-2022-09, FISHID = NA"
+SUSM02,2.947578305,0.197589585,0.592768756,FALSE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/12/2022,Surf Smelt,Hypomesus pretiosus,,43.5,15.8,
+921,0.542218984,0.180739661,0.542218984,TRUE,Southeast,SECM2022,,7/28/2022,58.2261,-134.6112,,12/12/2022,Pacific Herring,Clupea pallasi,,49.1,17,
+923,0.216804737,0.072268246,0.216804737,TRUE,Southeast,SECM2022,,7/28/2022,58.2261,-134.6112,,12/12/2022,Pacific Herring,Clupea pallasi,,46.5,16.5,
+1569,0.292571742,0.097523914,0.292571742,TRUE,Northern Bering Sea,NBS2021,6,9/1/2021,60.5035,-169.9368,,12/12/2022,Pacific Herring,Clupea pallasi,Age 1+,96.9,21.5,
+2070,0.502828218,0.167609406,0.502828218,TRUE,Northern Bering Sea,NBS2021,33,9/10/2021,63.5038,-167.0196,,12/12/2022,Pacific Herring,Clupea pallasi,Age 1+,92.2,20.8,
+2071,0.151040089,0.050346696,0.151040089,TRUE,Northern Bering Sea,NBS2021,33,9/10/2021,63.5038,-167.0196,,12/12/2022,Pacific Herring,Clupea pallasi,Age 1+,83.6,20.2,
+2665,0.372407605,0.124135868,0.372407605,TRUE,Northern Bering Sea,NBS2022,40,9/16/2022,64.1004,-164.5063,,12/12/2022,Pacific Herring,Clupea pallasi,Age 1+,19,12.2,Processed with light on
+2667,0.455492432,0.151830811,0.455492432,TRUE,Northern Bering Sea,NBS2022,40,9/16/2022,64.1004,-164.5063,,12/12/2022,Pacific Herring,Clupea pallasi,Age 1+,21.8,12.4,Processed with light on
+3105-c,0.583473322,0.194491107,0.583473322,TRUE,Northern Bering Sea,NBS2022,13,9/6/2022,61.5012,-168.9561,,12/12/2022,Sand Lance,Ammodytes hexapterus,Age 0,0.8,6,"Composite sample, n = 4, individuals = 3105, 3104, 3103, 3102, mass and length are averages"
+ARCI04,1.056819943,0.352273314,1.056819943,TRUE,Von_Biela,VVB,SS01,7/24/2022,70.29305,-147.7989,Foggy Island Bay,12/12/2022,Arctic Cisco,,,15.8,12.3,"VVB fish, Net ID = FN-2022-02, FISHID = NA"
+FOSC03,0.191901731,0.063967244,0.191901731,TRUE,Von_Biela,VVB,SS01,7/24/2022,70.29305,-147.7989,Foggy Island Bay,12/12/2022,Fourhorn Sculpin,,,3,7.4,"VVB fish, Net ID = FN-2022-02, FISHID = NA"
+FOSC08,0.173389513,0.057796504,0.173389513,TRUE,Von_Biela,VVB,LB01,8/16/2022,70.17207,-145.95714,Flaxman Island,12/12/2022,Fourhorn Sculpin,,,7.4,9.2,"VVB fish, Net ID = FN-2022-06, FISHID = NA"
+SUSM06,0.455492432,0.151830811,0.455492432,TRUE,Southeast,SECM2022,Zimobre Straight Station G,8/4/2022,56.2585,-132.3679,,12/12/2022,Surf Smelt,Hypomesus pretiosus,,31.4,13.8,
+#5 Capelin Spring 2021,1.674491362,0.120490501,0.361471503,FALSE,Southeast,Auke Bay,Fishermans Bend,4/26/2021,,,,12/21/2022,Capelin,,,,,
+2/9/22 3 Sand Lance SBS,0.967998059,0.180242867,0.540728602,FALSE,Southern Bering Sea,SBS2021,3,8/18/2021,,,,12/21/2022,Sand Lance,,,,,
+Brothers Sand Lance #2 8-23-2021,2.037692413,0.055673566,0.167020697,FALSE,Southeast,Brothers Islands 2021,,8/23/2021,,,,12/21/2022,Sand Lance,,,,,
+13 Capelin 21-Fish Bend,11.97379701,0.161424984,0.484274953,FALSE,Southeast,Auke Bay,Fishermans Bend,4/26/2021,,,,12/21/2022,Capelin,,,,,
+#8 Capelin 2021 Spring,7.521221165,0.079584031,0.238752094,FALSE,Southeast,Auke Bay,Fishermans Bend,4/26/2021,,,,12/21/2022,Capelin,,,,,
+Brothers Island Sand Lance #7,0.491801126,0.055723476,0.167170428,FALSE,Southeast,Brothers Islands 2021,,8/23/2021,,,,12/21/2022,Sand Lance,,,,,
+5) 3/8/22 5/9/22 Capelin Composite,3.123529036,0.075636624,0.226909872,FALSE,Southeast,Auke Bay,Statter Harbor,3/8/2022,,,,12/21/2022,Capelin,,,,,
+2499,4.3939256,0.088389425,0.265168274,FALSE,Northern Bering Sea,NBS2021,,9/10/2021,63.5038,-167.0196,,12/21/2022,Rainbow Smelt,,,,,R.S. 4/25/22
+8) Capelin 3/8/22 5/9/22,19.75867523,0.195131526,0.585394579,FALSE,Southeast,Auke Bay,Statter Harbor,3/8/2022,,,,12/21/2022,Capelin,,,,,
+#9 Capelin Spring 2021,0.739315916,0.049796897,0.149390691,FALSE,Southeast,Auke Bay,Fishermans Bend,4/26/2021,,,,12/21/2022,Capelin,,,,,
+Brothers Sand Lance 8/23/21 #9,0.933561219,0.058264769,0.174794306,FALSE,Southeast,Brothers Islands 2021,,8/23/2021,,,,12/21/2022,Sand Lance,,,,,
+14) Capelin 2021 Fish Head 5/8/22,9.989912158,0.103899453,0.311698358,FALSE,Southeast,Auke Bay,Fishermans Bend,4/26/2021,,,,12/21/2022,Capelin,,,,,
+3 Capelin Spring 2021,17.07044938,0.176095196,0.528285589,FALSE,Southeast,Auke Bay,Fishermans Bend,4/26/2021,,,,12/21/2022,Capelin,,,,,
+1133,4.027496095,0.160128475,0.480385426,FALSE,Northern Bering Sea,NBS2021,,9/5/2021,61.5021,-167.0204,,12/21/2022,Rainbow Smelt,,,,,R.S. 2 4/25/22
+2227,40.41486062,0.830650534,2.491951602,FALSE,Northern Bering Sea,NBS2021,46,9/14/2021,64.099,-162.5339,,12/21/2022,Rainbow Smelt,,,,,4-Smelt
+Brothers Island Sand Lance #1,0.126304567,0.042101522,0.126304567,TRUE,Southeast,Brothers Islands 2021,,8/23/2021,,,,12/21/2022,Sand Lance,,,,,
+Brothers Island Sand Lance #6 8/23,0.207022926,0.069007642,0.207022926,TRUE,Southeast,Brothers Islands 2021,,8/23/2021,,,,12/21/2022,Sand Lance,,,,,
+Eagle Sand Lance #2 8/10/21,0.16523793,0.05507931,0.16523793,TRUE,Southeast,Eagle Beach (Juneau),,8/10/2021,,,,12/21/2022,Sand Lance,,,,,
+Brothers Sand Lance #8 8/23/21,0.225931077,0.075310359,0.225931077,TRUE,Southeast,Brothers Islands 2021,,8/23/2021,,,,12/21/2022,Sand Lance,,,,,
+Eagle Beach Sand Lance #1 8/9/21,0.156820702,0.052273567,0.156820702,TRUE,Southeast,Eagle Beach (Juneau),,8/10/2021,,,,12/21/2022,Sand Lance,,,,,
+2031,0.22792981,0.075976603,0.22792981,TRUE,Northern Bering Sea,NBS2021,31,9/9/2021,63.016,-166.006,,12/21/2022,Pacific Herring,,Age 1+,,,Herring #5
+2077,2.644641724,0.117122535,0.351367605,FALSE,Northern Bering Sea,NBS2021,33,9/10/2021,63.5038,-167.0196,,12/22/2022,Capelin,,,,,Capelin #16
+2223,17.46001614,0.492524974,1.477574923,FALSE,Northern Bering Sea,NBS2021,45,9/14/2021,64.1063,-163.4488,,12/22/2022,Rainbow Smelt,,,,,Rainbow Smelt #9
+2224,37.6948883,0.755682678,2.267048035,FALSE,Northern Bering Sea,NBS2021,45,9/14/2021,64.1063,-163.4488,,12/22/2022,Rainbow Smelt,,,,,Rainbow Smelt #10
+2078,0.371998056,0.123999352,0.371998056,TRUE,Northern Bering Sea,NBS2021,33,9/10/2021,63.5038,-167.0196,,12/22/2022,Capelin,,,,,Capelin #15
+2030,0.285986994,0.095328998,0.285986994,TRUE,Northern Bering Sea,NBS2021,31,9/9/2021,63.016,-166.006,,12/22/2022,Pacific Herring,,Age 1+,,,Herring #6
+1149,NA,NA,NA,NA,Northern Bering Sea,NBS2022,26,9/11/2022,63.0175,-166.0092,,NA,Rainbow Smelt,Osmerus mordax,NA,25.5,15.1,
+2980,NA,NA,NA,NA,Northern Bering Sea,NBS2022,5,9/3/2022,60.5219,-169.0082,,NA,Capelin,Mallotus villosus,NA,2.5,7.8,
+2998,NA,NA,NA,NA,Northern Bering Sea,NBS2022,6,9/3/2022,60.5045,-167.979,,NA,Capelin,Mallotus villosus,NA,3.9,8.5,
+3000,NA,NA,NA,NA,Northern Bering Sea,NBS2022,6,9/3/2022,60.5045,-167.979,,NA,Capelin,Mallotus villosus,NA,4.8,8.8,
+2613-c,NA,NA,NA,NA,Northern Bering Sea,NBS2022,39,9/15/2022,64.0997,-163.4911,,NA,Pacific Herring (age 0),Clupea pallasi,Age 0,1.9,6.2,"Composite sample, n = 3, individuals = 2613, 2612, 2611, mass and length are averages"
+2621-c,NA,NA,NA,NA,Northern Bering Sea,NBS2022,39,9/15/2022,64.0997,-163.4911,,NA,Pacific Herring (age 0),Clupea pallasi,Age 0,2.3,6.5,"Composite sample, n = 2, individuals = 2621, 2620, mass and length are averages"
+3106-c,NA,NA,NA,NA,Northern Bering Sea,NBS2022,13,9/6/2022,61.5012,-168.9561,,NA,Sand Lance,Ammodytes hexapterus,Age 0,0.7,5.2,"Composite sample, n = 3, individuals = 3106, 3107, 3108, mass and length are averages"
+ARCI06,NA,NA,NA,NA,Von_Biela,VVB,SS02,7/30/2019,70.27666,-147.77771,Foggy Island Bay,NA,Arctic Cisco,,,18,13.3,"VVB fish, Net ID = FN-2019-09-South, FISHID = ARCI343"
+BRWH10,NA,NA,NA,NA,Von_Biela,VVB,SL77,7/22/2019,70.49861,-149.59874,Simpson Lagoon,NA,Broad Whitefish,,,66.4,19,"VVB fish, Net ID = FN-2019-02-West, FISHID = BRWH162"

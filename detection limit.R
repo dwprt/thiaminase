@@ -26,8 +26,11 @@ meta <- read.csv(file = file.path(dir.data, "Thiaminase.Meta.2022.detection.limi
 
 #meta <- meta[-c(224:334),] #removing empty rows
 meta <- meta[-c(1:9),] #removing samples that were not analysed
+meta <- meta[-c(233:334),] #removing samples that were not analysed
+meta <- meta[-c(233:241),] #removing samples that were not analysed
+
 meta$Catch.Date <- mdy(meta$Catch.Date)
-levels(meta$Area) <- c("Northern Bering Sea", "Southeast", "Southern Bering Sea", "Arctic")
+levels(meta$Area) <- c("Northern Bering Sea", "Southeast Alaska", "Southern Bering Sea", "Arctic")
 meta$Reg_Date <- paste(meta$Area, " ", year(meta$Catch.Date), sep = "")
 
 
@@ -52,12 +55,7 @@ write_xlsx(meta_summary3, path = file.path(dir.output, "META_SUMMARY.xlsx"))
 ?writexl
 
 
-?subset
-subset(meta)
-mean(meta[which(meta$Species == "Capelin" & meta$Area == "Northern Bering Sea" & meta$No_detect == FALSE), 2])
 
-
-meta[which(meta$Species == "Capelin"),]
 #how many of each species do I have from each region? how many have detectable thiaminase
 meta_tab <- meta %>% 
   group_by(Species) %>% 
@@ -353,19 +351,75 @@ PacificHerringros <- ros(PacificHerring$Thiaminase_Activity, PacificHerring$No_d
 
 mean(PacificHerringros)
 
+
+
+# 1-06-2023 Testing Figures for AMSS
+# Capelin figure, SE Alaska vs. Bering Sea
+
+Capelin <- filter(meta, Species == "Capelin")
+Capelin$Area <- droplevels(Capelin$Area)
+
+x11(width = 1100, height = 1000)
+par(cex = 2.05, tcl = 0)
+cboxplot(Capelin$Thiaminase_Activity, Capelin$No_detect, Capelin$Area,
+         #Ylab = expression(Thiaminase~Activity~(nmol~T~"∙"~g^{"-1"}~"∙"~m^{"-1"})),
+         Ylab = "",
+         Xlab = "Region",
+         Title = "Capelin",
+         bxcol = c("#009E73", "#D55E00"))
+
+#Rainbow Smelt Activity NBS21 v NBS22 vs 
+
+RainbowSmelt <- filter(meta, Species == "Rainbow Smelt")
+RainbowSmelt$Area <- droplevels(RainbowSmelt$Area)
+RainbowSmelt$Reg_Date
+
+RainbowSmelt$Reg_Date <- factor(RainbowSmelt$Reg_Date,
+                                labels = c("Arctic\n2021",
+                                           "Arctic\n2022",
+                                           "Bering Sea\n2021",
+                                           "Bering Sea\n2022"))
+
+
+x11(width = 1100, height = 1000)
+par(cex = 2.05, tcl = 0)
+boxplot(RainbowSmelt$Thiaminase_Activity ~ RainbowSmelt$Reg_Date,
+        ylab = expression(Thiaminase~Activity~(nmol~T~"∙"~g^{"-1"}~"∙"~m^{"-1"})),
+        xlab = "Region/Year",
+        main = "Rainbow Smelt",
+        col = c("#009E73", "#D55E00", "#56B4E9", "#F0E442"),
+        cex = 8)
+
+?par
+#Pacific Herring
+
+PacificHerring <- filter(meta, Species == "Pacific Herring" | Species == "Pacific Herring (age 0)")
+PacificHerring$Area <- droplevels(PacificHerring$Area)
+
+x11(width = 1100, height = 1000)
+par(cex = 2.05, tcl = 0)
+cboxplot(PacificHerring$Thiaminase_Activity, PacificHerring$No_detect, PacificHerring$Area,
+         Ylab = expression(Thiaminase~Activity~(nmol~T~"∙"~g^{"-1"}~"∙"~m^{"-1"})),
+         Xlab = "Region",
+         Title = "Pacific Herring",
+         bxcol = c("#009E73", "#D55E00"))
+
+#Sand Lance
+
+SandLance <- filter(meta, Species == "Sand Lance" & Area != "Southern Bering Sea")
+SandLance$Area <- droplevels(SandLance$Area)
+
+x11(width = 1100, height = 1000)
+par(cex = 2.05, tcl = 0)
+cboxplot(SandLance$Thiaminase_Activity, SandLance$No_detect, SandLance$Area,
+         #Ylab = expression(Thiaminase~Activity~(nmol~T~"∙"~g^{"-1"}~"∙"~m^{"-1"})),
+         Ylab = "",
+         Xlab = "Region",
+         Title = "Sand Lance",
+         bxcol = c("#009E73", "#D55E00"))
+
 ?cboxplot
 
-cenCompareQQ(PacificHerring$Thiaminase_Activity, PacificHerring$No_detect)
+par(mfrow = c(2,2))
 
-xxx <- enparCensored(PacificHerring$Thiaminase_Activity, PacificHerring$No_detect, ci = TRUE, 
-              ci.method = "bootstrap", n.bootstraps = 5000)
-
-xxx
-?enparCensored
-
-enparCensored(ShePyrene$Pyrene,ShePyrene$PyreneCen, ci=TRUE, ci.method="bootstrap", n.bootstraps = 5000)
-
-?ros
-
-
-
+cboxplot
