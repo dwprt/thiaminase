@@ -381,7 +381,7 @@ RainbowSmelt$Reg_Date <- factor(RainbowSmelt$Reg_Date,
                                            "Bering Sea\n2022"))
 
 
-x11(width = 1100, height = 1000)
+x11(width = 2200, height = 1000)
 par(cex = 2.05, tcl = 0)
 boxplot(RainbowSmelt$Thiaminase_Activity ~ RainbowSmelt$Reg_Date,
         ylab = expression(Thiaminase~Activity~(nmol~T~"∙"~g^{"-1"}~"∙"~m^{"-1"})),
