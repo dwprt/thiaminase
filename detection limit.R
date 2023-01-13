@@ -627,10 +627,11 @@ xxxxxx$species <- reorder(xxxxxx$species, xxxxxx$mean_thia_act)
 xxxxxx$RegionSpecies <- droplevels(xxxxxx$RegionSpecies)
 xxxxxx$RegionSpecies <- reorder(xxxxxx$RegionSpecies, xxxxxx$mean_thia_act)
 
-mtPoint = 12
+mtPoint = 10
 mtAllText = 36
-mtWidth = 20
-mtHeight = 20
+mtWidth = 15
+mtHeight = 17.5
+mtAxis.Text = 26
 
 megaThiaminase <- ggplot(data = xxxxxx, aes(x = species, y = mean_thia_act)) +
   geom_hline(yintercept = 2.5, linetype = "dashed", color = "red", size = 2) +
@@ -642,8 +643,10 @@ megaThiaminase <- ggplot(data = xxxxxx, aes(x = species, y = mean_thia_act)) +
   ylab(expression(Mean~Thiaminase~Activity~(nmol~T~"∙"~g^{"-1"}~"∙"~m^{"-1"}))) +
   xlab("Species") +
   theme(legend.title = element_blank(),
-        legend.position = c(0.85, 0.1),
-        text = element_text(size = mtAllText)) +
+        legend.position = c(0.8, 0.1),
+        axis.title = element_text(size = mtAllText),
+        axis.text = element_text(size = mtAxis.Text),
+        legend.text = element_text(size = mtAxis.Text)) +
   scale_color_manual(values = c("#D55E00", "#56B4E9", "#009E73")) +
   scale_y_continuous(breaks = seq(0,30, by = 5), limits = c(-1,28))
 
@@ -660,8 +663,8 @@ yyyyyy$RegionSpecies <- reorder(yyyyyy$RegionSpecies, yyyyyy$mean_thia_act)
 
 mtPoint = 12
 mtAllText = 36
-mtWidth = 20
-mtHeight = 20
+mtWidth = 15
+mtHeight = 15
 
 megaThiaminaseyyy <- ggplot(data = yyyyyy, aes(x = species, y = mean_thia_act)) +
   geom_hline(yintercept = 2.5, linetype = "dashed", color = "red", size = 2) +
@@ -704,8 +707,8 @@ RASM$Area <- factor(RASM$Area, levels = c("Arctic", "Northern Bering Sea"))
 names(RASM)
 
 RASMAllText = 36
-RASMWidth = 7.5
-RASMHeight = 7.5
+RASMWidth = 15
+RASMHeight = 10
 
 RASMthia <- ggplot(RASM, aes(x = Reg_Date, y = Thiaminase_Activity,
                  fill = Area)) +
