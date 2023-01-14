@@ -629,12 +629,12 @@ xxxxxx$RegionSpecies <- reorder(xxxxxx$RegionSpecies, xxxxxx$mean_thia_act)
 
 mtPoint = 10
 mtAllText = 36
-mtWidth = 15
-mtHeight = 17.5
+mtWidth = 18.5
+mtHeight = 17
 mtAxis.Text = 26
 
 megaThiaminase <- ggplot(data = xxxxxx, aes(x = species, y = mean_thia_act)) +
-  geom_hline(yintercept = 2.5, linetype = "dashed", color = "red", size = 2) +
+  geom_hline(yintercept = 2.5, linetype = "dashed", color = "red", size = 3) +
   geom_errorbar(aes(x = species, ymin = LT_thia_act, ymax = UT_thia_act,
                     width = 0.25), size = 2) +
   geom_point(aes(color = region, shape = region), size = mtPoint) +
@@ -707,7 +707,7 @@ RASM$Area <- factor(RASM$Area, levels = c("Arctic", "Northern Bering Sea"))
 names(RASM)
 
 RASMAllText = 36
-RASMWidth = 15
+RASMWidth = 18.5
 RASMHeight = 10
 
 RASMthia <- ggplot(RASM, aes(x = Reg_Date, y = Thiaminase_Activity,
