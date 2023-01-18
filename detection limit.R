@@ -695,12 +695,14 @@ RASM %>%
   summarise(n = n())
 
 RASM$Reg_Date <- factor(RASM$Reg_Date, 
-                        levels = c("Northern Bering Sea 2022",
-                                   "Northern Bering Sea 2021",
-                                   "Arctic 2022", "Arctic 2021"),
-                        labels = c("N. Bering Sea \n2022 \n n = 8",
-                                   "N. Bering Sea \n2021 \n n = 9",
-                                   "Arctic \n2022 \n n = 6", "Arctic \n2021 \n n = 4"))
+                        levels = c("Arctic 2022",
+                                   "Arctic 2021",
+                                   "Northern Bering Sea 2022",
+                                   "Northern Bering Sea 2021"),
+                        labels = c("Arctic \n2022 \n n = 6",
+                                   "Arctic \n2021 \n n = 4",
+                                   "N. Bering Sea \n2022 \n n = 8",
+                                   "N. Bering Sea \n2021 \n n = 9"))
 RASM$Area <- droplevels(RASM$Area)
 RASM$Area <- factor(RASM$Area, levels = c("Arctic", "Northern Bering Sea"))
 
